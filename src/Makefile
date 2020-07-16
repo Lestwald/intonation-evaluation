@@ -1,0 +1,2 @@
+all: 
+	g++ -g example.cpp intonation-evaluation.cpp -o example -I../ `pkg-config --cflags --libs pocketsphinx sphinxbase` -lessentia -lfftw3 -lyaml -lavcodec -lavformat -lavutil -lsamplerate -ltag -lfftw3f -lchromaprint -lavresample
